@@ -1,0 +1,24 @@
+# Ambiente virtual
+venv/
+
+# Arquivos de configuração do ambiente
+.env
+.env.*
+
+# Arquivos gerados pelo sistema
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos do banco de dados local
+db.sqlite3
+
+# Diretório de migrações
+*/migrations/
+
+# Arquivos de logs
+*.log
+
+# Arquivos de mídia e estáticos gerados
+media/
+staticfiles/
